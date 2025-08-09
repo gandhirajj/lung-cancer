@@ -63,7 +63,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 @st.cache_resource
 def load_model():
     model = CNN_DeiT_Hybrid(num_classes=len(class_names)).to(device)
-    state_dict = torch.load("best_model_cnn_deit.pth", map_location=device)
+    state_dict = torch.load("best_model_cnn_deit1.pth", map_location=device)
     model.load_state_dict(state_dict)
     model.eval()
     return model
