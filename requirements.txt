@@ -2,6 +2,7 @@ streamlit
 torch
 torchvision
 torchaudio
-numpy
+transformers
 pillow
-requests
+numpy
+tqdm
