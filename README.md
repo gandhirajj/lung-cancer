@@ -1,4 +1,5 @@
-Lung Cancer Classification using CNN + Vision Transformer (DeiT)
+Lung Cancer Classification using CNN + Vision Transformer (DeiT).
+
 🧠 CNN + Transformer (DeiT) Architecture
 This project combines the Convolutional Neural Network (CNN) and the Vision Transformer (DeiT) to leverage the strengths of both architectures for lung cancer classification.
 
@@ -97,3 +98,4 @@ DeiT layers captured the global relationships within lung structures, improving 
 The hybrid approach outperformed using CNN or Transformer alone, especially on small and imbalanced medical datasets.
 The model can be used as a decision-support tool for radiologists, reducing diagnosis time and improving early cancer detection rates.
 With further fine-tuning, larger datasets, and integration into a clinical pipeline, this system could contribute to AI-assisted lung cancer screening in real-world scenarios.
+
