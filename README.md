@@ -55,9 +55,13 @@ Dataset Description
 The dataset consists of 1006 CT scan images categorized into four classes:
 
 Class Name	         Train Images	    Test Images	          Validation Images
+
 Adenocarcinoma	        195	            120	                    24
-Large Cell Carcinoma	115	            51	                    21
+
+Large Cell Carcinoma	  115	            51	                    21
+
 Normal	                142	            54	                    13
+
 Squamous Cell Carcinoma	160	            90	                    15
 
 This well-structured dataset is split into training, testing, and validation sets, ensuring balanced model development, evaluation, and validation.
@@ -98,4 +102,5 @@ DeiT layers captured the global relationships within lung structures, improving 
 The hybrid approach outperformed using CNN or Transformer alone, especially on small and imbalanced medical datasets.
 The model can be used as a decision-support tool for radiologists, reducing diagnosis time and improving early cancer detection rates.
 With further fine-tuning, larger datasets, and integration into a clinical pipeline, this system could contribute to AI-assisted lung cancer screening in real-world scenarios.
+
 
