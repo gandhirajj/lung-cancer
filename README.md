@@ -1,5 +1,6 @@
 Lung Cancer Classification using CNN + Vision Transformer (DeiT).
 
+
 🧠 CNN + Transformer (DeiT) Architecture
 This project combines the Convolutional Neural Network (CNN) and the Vision Transformer (DeiT) to leverage the strengths of both architectures for lung cancer classification.
 
@@ -67,17 +68,21 @@ Squamous Cell Carcinoma	160	            90	                    15
 This well-structured dataset is split into training, testing, and validation sets, ensuring balanced model development, evaluation, and validation.
 
 Tech Stack
+
 Python
+
 PyTorch
+
 TorchVision
+
 Transformers (Hugging Face)
+
 Streamlit 
+
 PIL (Pillow)
 
 Project Structure
-bash
-Copy
-Edit
+
 .
 ├── ct_scan.ipynb                # Model training code
 
@@ -92,12 +97,15 @@ Edit
 └── dataset/                      # CT scan images (train/test/val)
 
 Model Accuracy
+
 Based on the training with the CNN + DeiT (Vision Transformer) hybrid architecture, the project achieved:
+
 Training Accuracy: ~98%
 
 Validation Accuracy: ~94%
 
 Test Accuracy: ~93%
+
 These results indicate that the model generalizes well, with only a small gap between training and validation accuracy, meaning it’s not heavily overfitting and is able to handle unseen CT scan images effectively.
 
 🏁 Conclusion
@@ -107,6 +115,7 @@ DeiT layers captured the global relationships within lung structures, improving 
 The hybrid approach outperformed using CNN or Transformer alone, especially on small and imbalanced medical datasets.
 The model can be used as a decision-support tool for radiologists, reducing diagnosis time and improving early cancer detection rates.
 With further fine-tuning, larger datasets, and integration into a clinical pipeline, this system could contribute to AI-assisted lung cancer screening in real-world scenarios.
+
 
 
 
