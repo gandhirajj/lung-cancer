@@ -6,3 +6,5 @@ transformers
 pillow
 numpy
 tqdm
+bitsandbytes
+scipy
